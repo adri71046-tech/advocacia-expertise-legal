@@ -34,7 +34,7 @@ const Hero = () => {
               onClick={() => document.getElementById("areas")?.scrollIntoView({ behavior: "smooth" })}
               size="lg"
               variant="outline"
-              className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              className="border-2 border-primary-foreground text-primary-foreground transition-none"
             >
               Conheça Nossas Áreas
             </Button>
